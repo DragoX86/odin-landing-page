@@ -6,3 +6,16 @@ This assignment requires me to re-create a web page from scratch, closely follow
 
 
 ## Challenges I Encountered and How I Solved Them:
+
+### Challenge 1:
+Trying to get header-links (one, two, and three) to be aligned in a row centered to the top right
+
+![header-links stuck as a column](./readme-resources/challenge1.png)
+
+#### Solution:
+The culprit that prevented the header links from being a row was `<ul>` in index.html, removing it solved the issue.
+
+![The culprit in index.html](./readme-resources/culprit1.png)
+
+#### Result:
+![Solution result](./readme-resources/solution1.png)
