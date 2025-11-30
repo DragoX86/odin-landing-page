@@ -19,3 +19,20 @@ The culprit that prevented the header links from being a row was `<ul>` in index
 
 #### Result:
 ![Solution result](./readme-resources/solution1.png)
+
+
+### Challenge 2:
+Trying to put hero main text, hero image, and hero secondary text to align like the odin project's example
+
+![issue](./readme-resources/issue2-1.png)
+
+I put hero `main-text` & `hero-image` in a container, then put the hero `secondary-text` and `sign-up` button below it, I was able to get the result closer to odin's example but the issue is the `hero-image`'s makes a large gap between hero `main-text` and hero `secondary-text`, I think I need to adjust my `<div>` container placement and a few changes to the CSS.
+
+![issue2](./readme-resources/issue2-2.png)
+
+
+#### Solution:
+This is most likely the hardest challenge for this assignment, I had to go back and look at my practice css flexbox exercises, specifically exercise number 5 flex-modal. The issue was my `<div>` placment and my order of html elements was wrong, I had to create two new `<div>` containers, one for all of the hero elements called `hero-content`, and another for `hero-image` called `hero-content-right`. I placed `hero-content-right` below `hero-secondary`, and moved `main-text` above `hero-secondary` container, did a few adjustments to the CSS and that fixed my issue.
+
+#### Result:
+![Solution result](./readme-resources/solution2.png)
