@@ -36,3 +36,20 @@ This is most likely the hardest challenge for this assignment, I had to go back 
 
 #### Result:
 ![Solution result](./readme-resources/solution2.png)
+
+
+### Challenge 3:
+The `call2action` sign up button keeps stretching and would not be the desired size unless it wrapped below `call2action`'s `secondary-text`.
+
+![issue](./readme-resources/issue3-1.png)
+
+This is what I wanted the button to look like (this is when it wraps):
+![issue2](./readme-resources/issue3-2.png)
+
+#### Solution:
+I solved the issue by putting `sign-up` button inside a new `<div>` container called `call2action-content-right`, then added new lines of CSS to center it, and that fixed the problem. 
+
+**Note to Self:** Put `<button>` element in it's own `<div>` container when using flexbox.
+
+#### Result:
+![Solution result](./readme-resources/solution3.png)

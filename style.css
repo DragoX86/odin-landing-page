@@ -129,6 +129,7 @@ body {
     align-items: center;
 }
 
+
 .quotes {
     background-color: #E5E7EB;
     display: flex;
@@ -158,4 +159,50 @@ body {
 .quote-credit {
     font-size: 24px;
     font-weight: bold;
+}
+
+
+.call2action {
+    margin: 15%;
+}
+.call2action-box{
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 5% 10%;
+}
+.call2action-content {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.call2action-message .main-text {
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.call2action-message .secondary-text {
+    display: flex;
+    font-size: 16px;
+    color: #E5E7EB;
+}
+.call2action-content-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.call2action-box .sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color: #3882F6;
+    border-color: #FFFF;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 25px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 900;
 }
