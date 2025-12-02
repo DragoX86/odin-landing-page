@@ -128,3 +128,34 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.quotes {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-box {
+    padding: 10% 19%;
+}
+
+.quote-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+.quote-credit {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 4%;
+}
+
+.quote-credit {
+    font-size: 24px;
+    font-weight: bold;
+}
