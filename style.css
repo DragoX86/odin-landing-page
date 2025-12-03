@@ -5,7 +5,7 @@ body {
 }
 
 
-.header, .hero {
+.header, .hero, .footer {
     background-color: #1F2937;
     margin: 0;
     padding: 0 15%;
@@ -162,7 +162,7 @@ body {
 }
 
 
-.call2action {
+.call2action{
     margin: 15%;
 }
 .call2action-box{
@@ -205,4 +205,17 @@ body {
     color: #F9FAF8;
     font-size: 18px;
     font-weight: 900;
+}
+
+.footer {
+    padding: 2% 10%;
+}
+.copyright-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright-text {
+    color: #E5E7EB;
+    font-size: 18px;
 }
