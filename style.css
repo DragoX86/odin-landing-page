@@ -10,6 +10,14 @@ body {
     margin: 0;
     padding: 0 15%;
 }
+.main-text {
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.secondary-text, .copyright-text {
+    color: #E5E7EB;
+}
+
 
 .header{
     display:flex;
@@ -18,13 +26,11 @@ body {
     padding-top: 15px;
     padding-bottom: 100px;
 }
-
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
 }
-
 .header-links{
     display: flex;
     gap: 10px;
@@ -51,15 +57,12 @@ body {
 }
 .hero-content .main-text {
     font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 900;
 }
 .hero-secondary {
     display: flex;
     justify-content: stretch;
 }
 .hero-secondary .secondary-text {
-    color: #E5E7EB;
     font-size: 18px;
 }
 .hero-content .sign-up {
@@ -84,6 +87,9 @@ body {
 }
 
 
+.content {
+    margin: 1% 15% 10% 15%;
+}
 .info-header {
     color:#1F2937;
     font-size: 36px;
@@ -92,7 +98,6 @@ body {
     align-items: center;
     justify-content: center;
     padding: 30px;
-    margin-top: 2%;
 }
 
 .info-grid {
@@ -100,10 +105,9 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 2% 15%;
+    margin-top: 2%;
     gap: 50px;
 }
-
 .info-card {
     display: flex;
     flex-direction: column;
@@ -111,7 +115,6 @@ body {
     align-items: center;
     max-width: 150px;
 }
-
 .card-image {
     display: flex;
     justify-content: center;
@@ -122,7 +125,6 @@ body {
     border-radius: 15px;
     width: 150px;
 }
-
 .card-subtext {
     display: flex;
     justify-content: center;
@@ -139,7 +141,6 @@ body {
 .quote-box {
     padding: 10% 19%;
 }
-
 .quote-text {
     display: flex;
     justify-content: start;
@@ -154,16 +155,13 @@ body {
     align-items: center;
     justify-content: end;
     padding-right: 4%;
-}
-
-.quote-credit {
     font-size: 24px;
     font-weight: bold;
 }
 
 
 .call2action{
-    margin: 15%;
+    margin: 5%;
 }
 .call2action-box{
     background-color: #3882F6;
@@ -179,13 +177,11 @@ body {
 .call2action-message .main-text {
     display: flex;
     font-size: 24px;
-    color: #F9FAF8;
-    font-weight: 900;
+    
 }
 .call2action-message .secondary-text {
     display: flex;
     font-size: 16px;
-    color: #E5E7EB;
 }
 .call2action-content-right{
     display: flex;
@@ -207,6 +203,7 @@ body {
     font-weight: 900;
 }
 
+
 .footer {
     padding: 2% 10%;
 }
@@ -216,6 +213,5 @@ body {
     justify-content: center;
 }
 .copyright-text {
-    color: #E5E7EB;
     font-size: 18px;
 }
